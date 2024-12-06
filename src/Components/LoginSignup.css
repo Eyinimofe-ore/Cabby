@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-body{
+    background: #F6EBAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-container{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 70px;
+    box-shadow: 5px 5px 5px rgba(18, 18, 18, 0.678);
+   
+}
+.img-container{
+    width: 450px;
+    height: 100px;
+    margin-top: 60px;
+    padding-left: 30px;
+    
+ 
+}
+
+.sign-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.login-body h1{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+
+}
+.input_text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 170px;
+    justify-content: space-between;
+    
+    
+   
+   
+    
+}
+.input_text input{
+    display: flex;
+    height: 30px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:#000000;
+    font-size: 16px;
+   
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 20px;
+    background: transparent;
+    height: 500px;
+    width: 300px;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+    padding-left: 10px;
+    padding-right: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+   
+   
+}
+.info{
+  display: flex;
+  font-size: 15px;
+ justify-content: space-around;
+ margin-top: -10px;
+ margin-bottom: 20px;
+ 
+ 
+
+}
+#check{
+    margin-right: 10px;
+    
+}
+
+.login-body a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    
+}
+#sign_button{
+    height: 35px;
+    width: 300px;
+    align-self: center;
+    border-radius: 20px;
+    outline: none;
+    border: 1px rgb(166, 24, 24) solid;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+.login-body span{
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+.login-body p{
+    font-size: 13.5px;
+    color: black;
+}
+::placeholder{
+    color: black;
+}
+.inputs #icon{
+    color: black;
+    margin-right: 10px;
+}
+#btn{
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: red;
+}
+.login-body label{
+    margin-right: 70px;
+}
+.back-arrow {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .back-arrow:hover {
+    color: #3a8dc4; /* Adjust for hover effect */
+    text-decoration: underline;
+  }
+  
